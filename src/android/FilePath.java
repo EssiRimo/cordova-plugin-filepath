@@ -329,6 +329,7 @@ public class FilePath extends CordovaPlugin {
      */
     private static String getPath(final Context context, final Uri uri) {
 
+        /*
         Log.d(TAG, "File - " +
                 "Authority: " + uri.getAuthority() +
                 ", Fragment: " + uri.getFragment() +
@@ -338,6 +339,7 @@ public class FilePath extends CordovaPlugin {
                 ", Host: " + uri.getHost() +
                 ", Segments: " + uri.getPathSegments().toString()
         );
+        */
 
         final boolean isKitKat = Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT;
 
